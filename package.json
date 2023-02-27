@@ -1,0 +1,30 @@
+{
+  "name": "namste-react",
+  "version": "1.0.0",
+  "description": "this is react course namate",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "just for testing"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/GodwinSabu/namate-react.git"
+  },
+  "author": "Godwin sabu",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist": [
+    "defaults and supports es6-module",
+    "maintained node versions"
+  ]
+}
